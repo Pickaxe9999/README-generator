@@ -54,7 +54,7 @@ THEN I am taken to the corresponding section of the README
 
 Branch Layout
 - feature/project-title
-- feature/readme-layout
+- feature/readme-information
 - feature/liscense-information
 - feature/github-information
 - feature/email-reach-out
