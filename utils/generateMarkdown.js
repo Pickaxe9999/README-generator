@@ -68,25 +68,26 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 
 ## Description
- - ${data.description}
+${data.description}
 
 ## Installation
- - ${data.installation}
+${data.installation}
 
 ## Usage
- - ${data.usage}
+${data.usage}
 
 ## Contributors
- - ${data.contributors}
+${data.contributors}
 
 ## How to test
- - ${data.tests}
+${data.tests}
 
 ## Questions?
- - GitHub: ${userContactDisplay(data.githubUsername, data.githubLink)}
+GitHub: ${userContactDisplay(data.githubUsername, data.githubLink)}  return
+For any aditional question you can reach me at [${data.email}](${data.email})
 
 ## Liscense Information
- - This project is licensed under the ${renderLicenseSection(data.license)}. 
+This project is licensed under the ${renderLicenseSection(data.license)}. 
 `;
 }
 

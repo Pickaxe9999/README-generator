@@ -6,22 +6,24 @@
 
 
 ## Description
- - Product Description
+Product Description
 
 ## Installation
- - Installation description
+Installation description
 
 ## Usage
- - usage Description
+usage Description
 
 ## Contributors
- - Contributors
+Contributors
 
 ## How to test
- - How to test
+How to test
 
 ## Questions?
- - GitHub: [Pickaxe9999](https://github.com/Pickaxe9999)
+GitHub: [Pickaxe9999](https://github.com/Pickaxe9999)
+
+For any aditional questions you can reach me at [jacob.hannah164@gmail.com](jacob.hannah164@gmail.com)
 
 ## Liscense Information
- - This project is licensed under the [BSD](https://opensource.org/licenses/BSD-3-Clause), [MIT](https://opensource.org/licenses/MIT), [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) licenses. 
+This project is licensed under the [BSD](https://opensource.org/licenses/BSD-3-Clause), [MIT](https://opensource.org/licenses/MIT), [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) licenses. 

@@ -68,6 +68,19 @@ const questions = [{
         }
     },
     {
+        type: "input",
+        name: "email",
+        message: "Please input an email for users to contact you if they have questions.",
+        validate: email =>{
+            if(email){
+                return true;
+            }else{
+                console.log("Please your email for the README.md!");
+                return false;
+            }
+        }
+    },
+    {
         type: "checkbox",
         name: "license",
         message: "Please select any liscense you wish to add to the project. (Check all that apply)",
