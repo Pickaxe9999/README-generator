@@ -45,6 +45,12 @@ const questions = [{
         type: "input",
         name: "questions",
         message: "Input a way a user can get in contact with you for follow-up questions."
+    },
+    {
+        type: "checkbox",
+        name: "license",
+        message: "Please select any liscense you wish to add to the project. (Check all that apply)",
+        choices: ['BSD','MIT','CCO']
     }
 ];
 
@@ -78,7 +84,8 @@ const sampleData = {
     usage: 'usage Description',
     contributors: 'Contributors',
     tests: 'How to test',
-    questions: 'jacob.hannah164@gmail.com'
+    questions: 'jacob.hannah164@gmail.com',
+    license: ['BSD', 'MIT', 'CCO']
 }
 
 // Function call to initialize app
