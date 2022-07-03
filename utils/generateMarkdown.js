@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+//returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let licenseBadge = ``;
@@ -18,7 +18,7 @@ function renderLicenseBadge(license) {
   return licenseBadge;
 }
 
-// TODO: Create a function that returns the license link
+//returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   let licenseLink = ``;
@@ -32,7 +32,7 @@ function renderLicenseLink(license) {
   return licenseLink;
 }
 
-// TODO: Create a function that returns the license section of README
+//returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   let licenseSection = ``;
@@ -56,10 +56,14 @@ function renderLicenseSection(license) {
   return licenseSection;
 }
 
-// TODO: Create a function to generate markdown for README
+//return the users github name and the name as a link
+function userContactDisplay (username, link) {
+  return `[${username}](${link})`;
+}
+
+//generate markdown for README
 function generateMarkdown(data) {
-  return `# Title
-${data.title}
+  return `# ${data.title}
 
 ${renderLicenseBadge(data.license)}
 
@@ -78,12 +82,12 @@ ${renderLicenseBadge(data.license)}
 ## How to test
  - ${data.tests}
 
-## Contact Information
- - ${data.questions}
+## Questions?
+ - GitHub: ${userContactDisplay(data.githubUsername, data.githubLink)}
 
 ## Liscense Information
  - This project is licensed under the ${renderLicenseSection(data.license)}. 
 `;
 }
 
-module.exports = {generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection};
+module.exports = {generateMarkdown};

@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const {generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection} = require("./utils/generateMarkdown.js");
+const {generateMarkdown} = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = [{
@@ -43,8 +43,29 @@ const questions = [{
     },
     {
         type: "input",
-        name: "questions",
-        message: "Input a way a user can get in contact with you for follow-up questions."
+        name: "githubUsername",
+        message: "Please inpuit your github username.",
+        validate: usernameInput =>{
+            if(usernameInput){
+                return true;
+            }else{
+                console.log("Please your github username for the README.md!");
+                return false;
+            }
+        }
+    },
+    {
+        type: "input",
+        name: "githubLink",
+        message: "Please input a link to your github profile.",
+        validate: githubLink =>{
+            if(githubLink){
+                return true;
+            }else{
+                console.log("Please your github username for the README.md!");
+                return false;
+            }
+        }
     },
     {
         type: "checkbox",
@@ -78,13 +99,15 @@ function init() {
 
 //sample object
 const sampleData = {
-    title: 'Title',
+    title: 'Sample Title',
     description: 'Product Description',
     installation: 'Installation description',
     usage: 'usage Description',
     contributors: 'Contributors',
     tests: 'How to test',
-    questions: 'jacob.hannah164@gmail.com',
+    githubUsername: 'Pickaxe9999',
+    githubLink: 'https://github.com/Pickaxe9999',
+    email: 'jacob.hannah164@gmail.com',
     license: ['BSD', 'MIT', 'CCO']
 }
 
