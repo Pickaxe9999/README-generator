@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) AS A developer I WANT a README generator SO THAT I can quickly create a professional README for a new project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pickaxe9999/README-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pickaxe9999/README-generator/issues"
+  },
+  "homepage": "https://github.com/Pickaxe9999/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
