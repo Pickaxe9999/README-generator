@@ -1,61 +1,42 @@
-# Professional README Generator Starter Code
+# README-generator
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)
 
 
+## Table of contents
+[Description](#description)
 
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-## create a prompt that asks for 
-- Title
-- description
-- table of contents
-- intstillaiton
-- usage
-- liscense
-- contributing
-- tests
-- questions
+[Installation](#installation)
 
+[Usage](#usage)
 
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-- append Title to the Readme.md file
+[Contributors](#contributors)
 
+[Testing](#how-to-test)
 
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
--additional information to the readme as provided by the user
+[Questions?](#questions)
 
+[License Information](#license-information)
 
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
--display a badge for a provided liscense if the user provides one near the top of the file
+## Description
+The purpose of this project is to prompt the user with various questions to generate a professional readme.md file.
 
+## Installation
+Download the repository to a root folder and unzip or pull to a root folder using the ssh or https key.
 
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-- add the github username to the questions section along with a link to the users github
+## Usage
+One would use this to help speed up the process of generating a readme instead of typing one from scratch.
 
+## Contributors
+Jacob Hannah(Pickaxe9999)
 
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-- add the users email with instructions on how to reach them
+## How to test
+To test the application first install node.js onto your machine. Then navigate to the root folder of the project and run npm install. Once all plugins are downloaded, invoke the program with the command in the root folder with "node index.js". After which you will be given a series of prompts to follow of what information you need to input for your README.
 
+## Questions?
+GitHub: [Pickaxe9999](https://github.com/Pickaxe9999)
 
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-- link the table of contents to their corresponding sections
+For any aditional question you can reach me at [jacob.hannah164@gmail.com](jacob.hannah164@gmail.com)
 
-
-Branch Layout
-- feature/project-title
-- feature/readme-information
-- feature/liscense-information
-- feature/github-information
-- feature/email-reach-out
-- feature/table-of-contents
+## License Information
+This project is licensed under the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license. 
